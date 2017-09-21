@@ -62,7 +62,7 @@ deploy:
   provider: pypi
   user: sdsc-org
   password:
-    secure: TODO:PYPISECUREHASH
+    secure: A02KrkWrrlnXgV8kJ4LkjBEq5/FUv0q0c/CBlBguJoQ/duwUhnutH95m/THPW5bLMfAg/vz8k79zA7UsaNT6vLriEWsc3c6XOSXz5LjYt89pNFmK7REgedmDj87ZbucjxLIvzJgaJaROs1fRFyw9CrkaFcHEpimN1p+wuHOH+ZaLdC0iVPfIU2jLZzJAwbqNpoTFV32yiW5g5hV+7P4gngd7NB0I+ugqIJbDvrd1QuGPn/HhV1RN/ayYDQqbiEANO0ZneQUTYmjDN46Tdk6AyYmD7agmii9mcNWk6aOCLSOyyHB5G53glM8Yqz5krXlOpCZ//EXjZk+qp+2nElLzj5MTh1HzM20WIJ7FUxiaEflQs8okZPZ7tNbJU52Lb/x5t8iIqjMyqBJfuWGMNbqBGSH13k3yI/2p3u/scxU5EU9Vj9wgBebEOBAGxfo5nF7yyeCLXAyhEEkhkj+5+B4ExVfl+7M0DaxHV+1hH1tV+ryvF6dt82tK3mNGNRfdek+xGirPZHK+HkIwmGYZxzmJml93KHVBVRn+0LBjZeMNcPQFaKPqOCFrqU6mY4nB/6OGfQyrd5/ph3fQzzPfQ8bsVPVDKaMluwptGpqJF6TSBYWJFLg0SfgjnIHZXmryXEZTjsPb+MlBlHnXq43S9yp1XIO0J6IISI+JhObh2PefTaE=
   distributions: "sdist bdist_wheel"
   on:
     tags: true
