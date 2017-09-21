@@ -21,10 +21,6 @@ notifications:
 
 sudo: false
 
-branches:
-  only:
-    - master
-
 language: python
 
 matrix:
