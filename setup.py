@@ -40,6 +40,10 @@ extras_require = {
 
 extras_require['all'] = extras_require['docs'] + extras_require['tests']
 
+install_requires = [
+    'Sphinx>=1.6.3',
+]
+
 # Get the version string. Cannot be done with import!
 g = {}
 with open(os.path.join('renga_sphinx_theme', 'version.py'), 'rt') as fp:
@@ -60,6 +64,7 @@ setup(
     packages=['renga_sphinx_theme'],
     include_package_data=True,
     extras_require=extras_require,
+    install_requires=install_requires,
     tests_require=tests_require,
     entry_points={
         'sphinx.html_themes': [
