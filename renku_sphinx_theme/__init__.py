@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright 2017 Swiss Data Science Center (SDSC)
+# Copyright 2017-2018 Swiss Data Science Center (SDSC)
 # A partnership between École Polytechnique Fédérale de Lausanne (EPFL) and
 # Eidgenössische Technische Hochschule Zürich (ETHZ).
 #
@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""A Sphinx theme for Renga documentation."""
+"""A Sphinx theme for Renku documentation."""
 
 from __future__ import absolute_import, print_function
 
@@ -35,12 +35,12 @@ def get_path():
 
 def update_context(app, pagename, templatename, context, doctree):
     """Update template context."""
-    context['renga_theme_version'] = __version__
+    context['renku_theme_version'] = __version__
 
 def setup(app):
     """Setup the Sphinx app."""
     theme_path = os.path.abspath(os.path.dirname(__file__))
-    app.add_html_theme('renga', theme_path)
+    app.add_html_theme('renku', theme_path)
     app.connect('html-page-context', update_context)
     return {'version': __version__,
             'parallel_read_safe': True}

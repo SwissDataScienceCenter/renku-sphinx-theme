@@ -18,6 +18,6 @@
 Authors
 =======
 
-A Sphinx theme for Renga documentation.
+A Sphinx theme for Renku documentation.
 
 - Swiss Data Science Center (SDSC) <contact@datascience.ch>

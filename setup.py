@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright 2017 Swiss Data Science Center (SDSC)
+# Copyright 2017-2018 Swiss Data Science Center (SDSC)
 # A partnership between École Polytechnique Fédérale de Lausanne (EPFL) and
 # Eidgenössische Technische Hochschule Zürich (ETHZ).
 #
@@ -16,7 +16,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-"""A Sphinx theme for Renga documentation."""
+"""A Sphinx theme for Renku documentation."""
 
 import os
 
@@ -46,29 +46,29 @@ install_requires = [
 
 # Get the version string. Cannot be done with import!
 g = {}
-with open(os.path.join('renga_sphinx_theme', 'version.py'), 'rt') as fp:
+with open(os.path.join('renku_sphinx_theme', 'version.py'), 'rt') as fp:
     exec(fp.read(), g)
     version = g['__version__']
 
 setup(
-    name='renga-sphinx-theme',
+    name='renku-sphinx-theme',
     version=version,
     description=__doc__,
     long_description=readme + '\n\n' + history,
-    keywords='Renga Sphinx theme',
+    keywords='Renku Sphinx theme',
     license='Apache License 2.0',
     author='Swiss Data Science Center (SDSC)',
     author_email='contact@datascience.ch',
-    url='https://github.com/SwissDataScienceCenter/renga-sphinx-theme',
+    url='https://github.com/SwissDataScienceCenter/renku-sphinx-theme',
     platforms='any',
-    packages=['renga_sphinx_theme'],
+    packages=['renku_sphinx_theme'],
     include_package_data=True,
     extras_require=extras_require,
     install_requires=install_requires,
     tests_require=tests_require,
     entry_points={
         'sphinx.html_themes': [
-            'renga = renga_sphinx_theme',
+            'renku = renku_sphinx_theme',
         ],
     },
     classifiers=[

@@ -16,31 +16,31 @@
     limitations under the License.
 
 =================================
- Sphinx Theme for Renga Projects
+ Sphinx Theme for Renku Projects
 =================================
 
-.. image:: https://img.shields.io/travis/SwissDataScienceCenter/renga-sphinx-theme.svg
-        :target: https://travis-ci.org/SwissDataScienceCenter/renga-sphinx-theme
+.. image:: https://img.shields.io/travis/SwissDataScienceCenter/renku-sphinx-theme.svg
+        :target: https://travis-ci.org/SwissDataScienceCenter/renku-sphinx-theme
 
-.. image:: https://img.shields.io/github/tag/SwissDataScienceCenter/renga-sphinx-theme.svg
-        :target: https://github.com/SwissDataScienceCenter/renga-sphinx-theme/releases
+.. image:: https://img.shields.io/github/tag/SwissDataScienceCenter/renku-sphinx-theme.svg
+        :target: https://github.com/SwissDataScienceCenter/renku-sphinx-theme/releases
 
-.. image:: https://img.shields.io/pypi/dm/renga-sphinx-theme.svg
-        :target: https://pypi.python.org/pypi/renga-sphinx-theme
+.. image:: https://img.shields.io/pypi/dm/renku-sphinx-theme.svg
+        :target: https://pypi.python.org/pypi/renku-sphinx-theme
 
-.. image:: https://img.shields.io/github/license/SwissDataScienceCenter/renga-sphinx-theme.svg
-        :target: https://github.com/SwissDataScienceCenter/renga-sphinx-theme/blob/master/LICENSE
+.. image:: https://img.shields.io/github/license/SwissDataScienceCenter/renku-sphinx-theme.svg
+        :target: https://github.com/SwissDataScienceCenter/renku-sphinx-theme/blob/master/LICENSE
 
-A Sphinx theme for Renga documentation based on beatiful `Alabaster theme
+A Sphinx theme for Renku documentation based on beatiful `Alabaster theme
 <http://alabaster.readthedocs.io/en/latest/>`_.
 
 Installation
 ------------
 
-1. Add ``renga-sphinx-theme`` to ``setup.py`` or ``requirements.txt`` used
+1. Add ``renku-sphinx-theme`` to ``setup.py`` or ``requirements.txt`` used
    for builing your documentation.
-2. Set ``html_theme`` to ``'renga'`` in ``docs/conf.py``.
+2. Set ``html_theme`` to ``'renku'`` in ``docs/conf.py``.
 3. Configure at least ``description`` and ``github_repo`` in
    ``html_theme_options``.
 
-Enjoy your beatiful Renga documentation style.
+Enjoy your beatiful Renku documentation style.

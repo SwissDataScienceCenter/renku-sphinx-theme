@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #
-# Copyright 2017 Swiss Data Science Center (SDSC)
+# Copyright 2017-2018 Swiss Data Science Center (SDSC)
 # A partnership between École Polytechnique Fédérale de Lausanne (EPFL) and
 # Eidgenössische Technische Hochschule Zürich (ETHZ).
 #
@@ -59,7 +59,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'Renga-Sphinx-Theme'
+project = u'Renku-Sphinx-Theme'
 copyright = u'2017, Swiss Data Science Center (SDSC)'
 author = u'Swiss Data Science Center (SDSC)'
 
@@ -72,7 +72,7 @@ author = u'Swiss Data Science Center (SDSC)'
 # Get the version string. Cannot be done with import!
 g = {}
 with open(os.path.join(os.path.dirname(__file__), '..',
-                       'renga_sphinx_theme', 'version.py'),
+                       'renku_sphinx_theme', 'version.py'),
           'rt') as fp:
     exec(fp.read(), g)
     version = g['__version__']
@@ -126,14 +126,14 @@ todo_include_todos = False
 
 
 # -- Options for HTML output ----------------------------------------------
-html_theme = 'renga'
+html_theme = 'renku'
 
 html_theme_options = {
-    'description': 'A Sphinx theme for Renga documentation.',
-    'github_repo': 'renga-sphinx-theme',
+    'description': 'A Sphinx theme for Renku documentation.',
+    'github_repo': 'renku-sphinx-theme',
     'extra_nav_links': {
-        'renga-sphinx-theme@GitHub': 'https://github.com/SwissDataScienceCenter/renga-sphinx-theme',
-        'renga-sphinx-theme@PyPI': 'https://pypi.python.org/pypi/renga-sphinx-theme/',
+        'renku-sphinx-theme@GitHub': 'https://github.com/SwissDataScienceCenter/renku-sphinx-theme',
+        'renku-sphinx-theme@PyPI': 'https://pypi.python.org/pypi/renku-sphinx-theme/',
     }
 }
 
@@ -238,7 +238,7 @@ html_sidebars = {
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'renga-sphinx-theme_namedoc'
+htmlhelp_basename = 'renku-sphinx-theme_namedoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -260,7 +260,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'renga-sphinx-theme.tex', u'renga-sphinx-theme Documentation',
+  (master_doc, 'renku-sphinx-theme.tex', u'renku-sphinx-theme Documentation',
    u'Swiss Data Science Center (SDSC)', 'manual'),
 ]
 
@@ -290,7 +290,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'renga-sphinx-theme', u'renga-sphinx-theme Documentation',
+    (master_doc, 'renku-sphinx-theme', u'renku-sphinx-theme Documentation',
      [author], 1)
 ]
 
@@ -304,8 +304,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'renga-sphinx-theme', u'Renga-Sphinx-Theme Documentation',
-   author, 'renga-sphinx-theme', 'A Sphinx theme for Renga documentation.',
+  (master_doc, 'renku-sphinx-theme', u'Renku-Sphinx-Theme Documentation',
+   author, 'renku-sphinx-theme', 'A Sphinx theme for Renku documentation.',
    'Miscellaneous'),
 ]
 

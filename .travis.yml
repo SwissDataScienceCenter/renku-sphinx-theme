@@ -63,5 +63,5 @@ deploy:
   on:
     tags: true
     python: "3.6"
-    repo: SwissDataScienceCenter/renga-sphinx-theme
+    repo: SwissDataScienceCenter/renku-sphinx-theme
     condition: $DEPLOY = true

@@ -24,10 +24,10 @@ prune docs/_build
 recursive-include docs *.py
 recursive-include docs *.rst
 recursive-include docs *.txt
-recursive-include renga_sphinx_theme *.conf
-recursive-include renga_sphinx_theme *.css
-recursive-include renga_sphinx_theme *.html
-recursive-include renga_sphinx_theme *.png
+recursive-include renku_sphinx_theme *.conf
+recursive-include renku_sphinx_theme *.css
+recursive-include renku_sphinx_theme *.html
+recursive-include renku_sphinx_theme *.png
 
 # added by check_manifest.py
 recursive-include docs *.txt
