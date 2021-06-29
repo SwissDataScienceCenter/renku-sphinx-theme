@@ -26,8 +26,15 @@ recursive-include docs *.rst
 recursive-include docs *.txt
 recursive-include renku_sphinx_theme *.conf
 recursive-include renku_sphinx_theme *.css
+recursive-include renku_sphinx_theme *.eot
 recursive-include renku_sphinx_theme *.html
+recursive-include renku_sphinx_theme *.json
+recursive-include renku_sphinx_theme *.otf
 recursive-include renku_sphinx_theme *.png
+recursive-include renku_sphinx_theme *.scss
+recursive-include renku_sphinx_theme *.svg
+recursive-include renku_sphinx_theme *.ttf
+recursive-include renku_sphinx_theme *.woff
 
 # added by check_manifest.py
 recursive-include docs *.txt
