@@ -129,12 +129,16 @@ todo_include_todos = False
 html_theme = 'renku'
 
 html_theme_options = {
-    'description': 'A Sphinx theme for Renku documentation.',
-    'github_repo': 'renku-sphinx-theme',
-    'extra_nav_links': {
-        'renku-sphinx-theme@GitHub': 'https://github.com/SwissDataScienceCenter/renku-sphinx-theme',
-        'renku-sphinx-theme@PyPI': 'https://pypi.python.org/pypi/renku-sphinx-theme/',
-    }
+    'logo_only': True,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
 }
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
