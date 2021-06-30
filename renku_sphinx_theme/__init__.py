@@ -43,6 +43,6 @@ def setup(app):
     app.add_html_theme('renku', theme_path)
     app.connect('html-page-context', update_context)
     app.add_css_file('custom.css') 
-    app.add_css_file('fonts/fonts.css') 
+    app.add_css_file('fonts.css') 
     return {'version': __version__,
             'parallel_read_safe': True}
