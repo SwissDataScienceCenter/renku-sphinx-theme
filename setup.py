@@ -35,10 +35,13 @@ extras_require = {
     'docs': [
         'Sphinx>=1.6.3',
     ],
+    'dev': [
+        'compile-scss~=1.0.1',
+    ],
     'tests': tests_require,
 }
 
-extras_require['all'] = extras_require['docs'] + extras_require['tests']
+extras_require['all'] = extras_require['docs'] + extras_require['dev'] + extras_require['tests']
 
 install_requires = [
     'Sphinx>=1.6.3',
