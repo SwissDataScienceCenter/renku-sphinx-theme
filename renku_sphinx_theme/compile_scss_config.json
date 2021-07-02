@@ -1,0 +1,7 @@
+{
+  "root": ".",
+  "scss_dir": "./static/",
+  "css_dir": "./static/",
+  "css_filename": "custom.css",
+  "output_style": "expanded"
+}

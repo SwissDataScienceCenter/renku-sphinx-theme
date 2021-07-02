@@ -1,3 +1,15 @@
+/**
+  CHANGE STYLE RELATED THINGS HERE!!!
+  
+  Requirements: 
+  - pip install compile-scss https://pypi.org/project/compile-scss/
+
+  Steps:
+  - Run:  compile_scss --watch
+  - That command will compile scss changes into css.
+  - After doing changes commit scss and css files.
+*/
+
 $rk-blue: #01192d;
 $rk-green: #009568;
 $rk-green-lighter: hsl(162, 100%, 37%);
@@ -15,7 +27,7 @@ $rk-pink: #d26a98;
 
 //side background
 .wy-nav-content-wrap {
-  background: $rk-background;
+  background: $rk-blue;
 }
 
 //all links are green
