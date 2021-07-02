@@ -1,12 +1,15 @@
 /**
-  CHANGE STYLE RELATED THINGS HERE!!!
+  CHANGES FOR CUSTOM.CSS SHOULD BE MADE INSIDE CUSTOM.SCSS
+  
+  Requirements: 
+  - pip install compile-scss https://pypi.org/project/compile-scss/
 
 To make changes to styling, first run the following in the root of the project:
     - pip install -e .[dev]
     
 Then you can edit and make changes to this file and see the results by doing the following:
   Steps:
-  - Run:  compile_scss --watch
+  - Run:  compile_scss --watch from inside /renku_sphinx_theme 
   - That command will compile scss changes into css.
   - After doing changes commit scss and css files.
 */

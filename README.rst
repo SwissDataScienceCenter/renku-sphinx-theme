@@ -31,8 +31,7 @@
 .. image:: https://img.shields.io/github/license/SwissDataScienceCenter/renku-sphinx-theme.svg
         :target: https://github.com/SwissDataScienceCenter/renku-sphinx-theme/blob/master/LICENSE
 
-A Sphinx theme for Renku documentation based on beatiful `Alabaster theme
-<http://alabaster.readthedocs.io/en/latest/>`_.
+A Sphinx theme for Renku documentation based on RTD theme.
 
 Installation
 ------------
@@ -44,3 +43,44 @@ Installation
    ``html_theme_options``.
 
 Enjoy your beatiful Renku documentation style.
+
+
+Style (css)
+------------
+
+This repo contains a scss file that generates a css file.
+The css file shouldn't be manually modified since it's generated with the scss.
+Instructions to change and run the scss file are inside the scss file.
+
+The easy way of doing style changes in this repository is to go to the renku repo, add a temporary css (custom.css) 
+in the ``docs/conf.py`` file and follow this steps: 
+
+https://renku.readthedocs.io/en/latest/developer/contributing/documentation.html
+
+The reason for this is that renku docs is a better repository for testing changes.
+
+After doing the changes in the temporary css add this to custom.scss in this repository, build this into 
+a css file using the instructions and commit the css and scss files.
+
+
+Building
+------------
+
+To build docs after doing changes, and thest things inside this repository
+
+1. From the base folder... ``pip install -r docs/requirements.txt``
+2. This should be done in case there where changes in fonts or new css files added ``pip install --editable .``
+3. There is no Makefile here but in order to do the "make html" action you should do 
+ ``cd docs``
+ ``sphinx-build -b html -d _build/doctrees   . _build/html``
+
+Docs will be built into ``_build/html...`` open this files with chrome to see the changes.
+
+
+Releasing
+------------
+
+After doing changes, a new release should be published in pypi under the sdsc-org account.
+
+To release a new version, change the version inside version.py, do step 1 and 2 of Building.
+Then do ``python3 -m twine upload dist/*`` and the new release will be published on pypi.
