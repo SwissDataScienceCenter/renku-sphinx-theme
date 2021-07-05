@@ -66,7 +66,7 @@ a css file using the instructions and commit the css and scss files.
 Building
 ------------
 
-To build docs after doing changes, and thest things inside this repository
+To build docs after doing changes, and test things inside this repository
 
 1. From the base folder... ``pip install -r docs/requirements.txt``
 2. This should be done in case there where changes in fonts or new css files added ``pip install --editable .``
