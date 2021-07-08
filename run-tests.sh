@@ -18,6 +18,6 @@
 # limitations under the License.
 
 pydocstyle renku_sphinx_theme docs && \
-isort -rc -c -df && \
-check-manifest --ignore ".travis-*" && \
+isort --check --df . && \
+check-manifest && \
 sphinx-build -qnNW docs docs/_build/html

@@ -31,16 +31,16 @@
 .. image:: https://img.shields.io/github/license/SwissDataScienceCenter/renku-sphinx-theme.svg
         :target: https://github.com/SwissDataScienceCenter/renku-sphinx-theme/blob/master/LICENSE
 
-A Sphinx theme for Renku documentation based on beatiful `Alabaster theme
+A Sphinx theme for Renku documentation based on beautiful `Alabaster theme
 <http://alabaster.readthedocs.io/en/latest/>`_.
 
 Installation
 ------------
 
 1. Add ``renku-sphinx-theme`` to ``setup.py`` or ``requirements.txt`` used
-   for builing your documentation.
+   for building your documentation.
 2. Set ``html_theme`` to ``'renku'`` in ``docs/conf.py``.
 3. Configure at least ``description`` and ``github_repo`` in
    ``html_theme_options``.
 
-Enjoy your beatiful Renku documentation style.
+Enjoy your beautiful Renku documentation style.
