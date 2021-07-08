@@ -42,7 +42,7 @@ Installation
 3. Configure at least ``description`` and ``github_repo`` in
    ``html_theme_options``.
 
-Enjoy your beatiful Renku documentation style.
+Enjoy your beautiful Renku documentation style.
 
 
 Style (css)
@@ -71,8 +71,9 @@ To build docs after doing changes, and test things inside this repository
 1. From the base folder... ``pip install -r docs/requirements.txt``
 2. This should be done in case there where changes in fonts or new css files added ``pip install --editable .``
 3. There is no Makefile here but in order to do the "make html" action you should do 
- ``cd docs``
- ``sphinx-build -b html -d _build/doctrees   . _build/html``
+
+    ``cd docs``
+    ``sphinx-build -b html -d _build/doctrees . _build/html``
 
 Docs will be built into ``_build/html...`` open this files with chrome to see the changes.
 
