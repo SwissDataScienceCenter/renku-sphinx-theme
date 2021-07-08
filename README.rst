@@ -37,7 +37,7 @@ Installation
 ------------
 
 1. Add ``renku-sphinx-theme`` to ``setup.py`` or ``requirements.txt`` used
-   for builing your documentation.
+   for building your documentation.
 2. Set ``html_theme`` to ``'renku'`` in ``docs/conf.py``.
 3. Configure at least ``description`` and ``github_repo`` in
    ``html_theme_options``.
