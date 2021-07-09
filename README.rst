@@ -46,7 +46,7 @@ Enjoy your beautiful Renku documentation style.
 
 
 Style (css)
-------------
+-----------
 
 This repo contains a scss file that generates a css file.
 The css file shouldn't be manually modified since it's generated with the scss.
@@ -64,7 +64,7 @@ a css file using the instructions and commit the css and scss files.
 
 
 Building
-------------
+--------
 
 To build docs after doing changes, and test things inside this repository
 
@@ -79,7 +79,7 @@ Docs will be built into ``_build/html...`` open this files with chrome to see th
 
 
 Releasing
-------------
+---------
 
 After doing changes, a new release should be published in pypi under the sdsc-org account.
 
