@@ -27,7 +27,7 @@ Changes
 -  **chore:** replace travis CI with github actions
    (`4056830 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/commit/40568301b0d95865db8835360b6b2ddd873ceccd>`__)
 
-`0.1.0 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/releases/tag/v0.1.0>__ (2018-05-17)`
+`0.1.0 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/releases/tag/v0.1.0>`__ (2018-05-17)
 ---------------------------------------------------------------------------------------------------------
 
 - Initial public release.
