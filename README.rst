@@ -19,8 +19,8 @@
  Sphinx Theme for Renku Projects
 =================================
 
-.. image:: https://img.shields.io/travis/SwissDataScienceCenter/renku-sphinx-theme.svg
-        :target: https://travis-ci.org/SwissDataScienceCenter/renku-sphinx-theme
+.. image:: https://github.com/SwissDataScienceCenter/renku-sphinx-theme/actions/workflows/test.yml/badge.svg
+        :target: https://github.com/SwissDataScienceCenter/renku-sphinx-theme/actions?query=branch%3Amaster
 
 .. image:: https://img.shields.io/github/tag/SwissDataScienceCenter/renku-sphinx-theme.svg
         :target: https://github.com/SwissDataScienceCenter/renku-sphinx-theme/releases
