@@ -30,7 +30,7 @@ tests_require = [
     'isort>=4.2.2',
     'pydocstyle>=1.0.0',
     'twine>=4.0,<5.0',
-    'pkginfo<1.9',
+    'pkginfo<1.10',
     'setuptools',
     'wheel',
 ]
