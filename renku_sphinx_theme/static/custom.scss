@@ -34,6 +34,12 @@ $rk-pink: #d26a98;
   background: $rk-blue;
 }
 
+@media screen and (min-width: 1100px) {
+  .wy-nav-content-wrap {
+      background:$rk-blue;
+  }
+}
+
 //all links are green
 a {
   color: $rk-green;

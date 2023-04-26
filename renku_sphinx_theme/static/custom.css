@@ -31,6 +31,12 @@ Then you can edit and make changes to this file and see the results by doing the
   background: #01192d;
 }
 
+@media screen and (min-width: 1100px) {
+  .wy-nav-content-wrap {
+      background:#01192d;
+  }
+}
+
 a {
   color: #009568;
 }
