@@ -18,6 +18,30 @@
 Changes
 =======
 
+`0.2.3 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/compare/v0.2.2...v0.2.3>`__ (2023-04-26)
+-------------------------------------------------------------------------------------------------------------
+
+-  **chore:** add dependabot.yml
+   (`76baee5 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/commit/76baee53a3dea65e44c862e3d39836bced35f205>`__)
+
+-  **chore:** remove dependency on non-existent compile-scss
+   (`617e566 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/commit/617e566bc4821c31e42d544c6abda9399c5cbde5>`__)
+ 
+-  **chore:** fix pypi description
+   (`23536d9 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/commit/23536d9e40efdd3701a76074e377f2236d336cdf>`__)
+  
+-  **chore(deps):** update sphinx-rtd-theme requirement 
+   (`2ca96ca <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/commit/2ca96ca9b932de2ba2f2434f0bb962d06d0a6620>`__)
+
+-  **chore:** bump python version
+   (`0dd1fe6 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/commit/0dd1fe66db3b1d1c587ca534bb04c9a6c148de92>`__)
+
+-  **chore:** delete layout.html
+   (`5fa988d <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/commit/5fa988d54609cfe3f593ca252af7925acd12eeef>`__)
+
+-  **fix:** update styles to fix sidebar background leaking into main content
+   (`5ab737b <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/commit/5ab737bf48f7757ff1fb4464538f851da5918aa9>`__)
+
 `0.2.2 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/compare/v0.1.0...v0.2.2>`__ (2021-07-09)
 -------------------------------------------------------------------------------------------------------------
 
