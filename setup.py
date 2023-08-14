@@ -30,14 +30,14 @@ tests_require = [
     'isort>=4.2.2',
     'pydocstyle>=1.0.0',
     'twine>=4.0,<5.0',
-    'pkginfo<1.9',
+    'pkginfo<1.10',
     'setuptools',
     'wheel',
 ]
 
 extras_require = {
     'docs': [
-        'Sphinx>=1.6.3,<6.0.0',
+        'Sphinx>=1.6.3,<8.0.0',
         'sphinx-rtd-theme>=0.5.0,<1.3',
     ],
     'dev': [ ],
@@ -49,7 +49,7 @@ extras_require = {
 extras_require['all'] = extras_require['docs'] + extras_require['dev'] + extras_require['tests']
 
 install_requires = [
-    'Sphinx>=1.6.3,<6.0.0',
+    'Sphinx>=1.6.3,<8.0.0',
     'sphinx-rtd-theme>=0.5.0,<1.3',
 ]
 
