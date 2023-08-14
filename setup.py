@@ -37,7 +37,7 @@ tests_require = [
 
 extras_require = {
     'docs': [
-        'Sphinx>=1.6.3,<6.0.0',
+        'Sphinx>=1.6.3,<8.0.0',
         'sphinx-rtd-theme>=0.5.0,<1.3',
     ],
     'dev': [ ],
@@ -49,7 +49,7 @@ extras_require = {
 extras_require['all'] = extras_require['docs'] + extras_require['dev'] + extras_require['tests']
 
 install_requires = [
-    'Sphinx>=1.6.3,<6.0.0',
+    'Sphinx>=1.6.3,<8.0.0',
     'sphinx-rtd-theme>=0.5.0,<1.3',
 ]
 
