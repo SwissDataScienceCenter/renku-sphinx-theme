@@ -52,14 +52,14 @@ This repo contains a scss file that generates a css file.
 The css file shouldn't be manually modified since it's generated with the scss.
 Instructions to change and run the scss file are inside the scss file.
 
-The easy way of doing style changes in this repository is to go to the renku repo, add a temporary css (custom.css) 
-in the ``docs/conf.py`` file and follow this steps: 
+The easy way of doing style changes in this repository is to go to the renku repo, add a temporary css (custom.css)
+in the ``docs/conf.py`` file and follow this steps:
 
 https://renku.readthedocs.io/en/latest/developer/contributing/documentation.html
 
 The reason for this is that renku docs is a better repository for testing changes.
 
-After doing the changes in the temporary css add this to custom.scss in this repository, build this into 
+After doing the changes in the temporary css add this to custom.scss in this repository, build this into
 a css file using the instructions and commit the css and scss files.
 
 
@@ -70,7 +70,7 @@ To build docs after doing changes, and test things inside this repository
 
 1. From the base folder... ``pip install -r docs/requirements.txt``
 2. This should be done in case there where changes in fonts or new css files added ``pip install --editable .``
-3. There is no Makefile here but in order to do the "make html" action you should do 
+3. There is no Makefile here but in order to do the "make html" action you should do
 
     ``cd docs``
     ``sphinx-build -b html -d _build/doctrees . _build/html``
@@ -81,7 +81,7 @@ Docs will be built into ``_build/html...`` open this files with chrome to see th
 Releasing
 ---------
 
-After doing changes, a new release should be published in pypi under the sdsc-org account.
-
-To release a new version, change the version inside version.py, do step 1 and 2 of Building.
-Then do ``python3 -m twine upload dist/*`` and the new release will be published on pypi.
+1. Create a pull request updating ``renku_sphinx_theme/version.py`` to the new version number
+   and ``CHANGES.rst`` to list the new changes.
+2. Once the pull request is merged, `create a new release <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/releases/new>`__.
+3. The release will be automatically be pushed to `PyPI <https://pypi.org/project/renku-sphinx-theme/>`__.
