@@ -40,9 +40,9 @@ extras_require = {
         'Sphinx>=1.6.3,<8.0.0',
         'sphinx-rtd-theme>=0.5.0,<1.4',
     ],
-    'dev': [ ],
-    #     'compile-scss~=1.0.1', NOTE: This package does not exist anymore, need to find a replacement!
-    # ],
+    'dev': [ 
+        'libsass~=0.23.0'
+    ],
     'tests': tests_require,
 }
 
