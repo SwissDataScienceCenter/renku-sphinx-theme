@@ -29,7 +29,7 @@ tests_require = [
     'check-manifest>=0.25',
     'isort>=4.2.2',
     'pydocstyle>=1.0.0',
-    'twine>=4.0,<6.0',
+    'twine>=4.0,<7.0',
     'pkginfo<1.10',
     'setuptools',
     'wheel',
