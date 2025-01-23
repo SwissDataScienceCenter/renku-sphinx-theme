@@ -18,10 +18,10 @@
 Changes
 =======
 
-`0.5.0 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/compare/v0.4.0...v0.5.0>`__ (2025-01-23)
+`0.5.0 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/compare/v0.4.0...v0.5.0>`__ (2025-01-24)
 -------------------------------------------------------------------------------------------------------------
 
-Minor dependency update.
+This release makes minor changes for compatibility with ``sphinx>8`` and ``sphinx-rtd-theme>3``.
 
 
 `0.4.0 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/compare/v0.3.0...v0.4.0>`__ (2025-01-23)
