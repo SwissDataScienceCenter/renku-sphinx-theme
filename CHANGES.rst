@@ -18,6 +18,12 @@
 Changes
 =======
 
+`0.4.0 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/compare/v0.3.0...v0.4.0>`__ (2025-01-23)
+-------------------------------------------------------------------------------------------------------------
+
+Minor dependency update. 
+
+
 `0.3.0 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/compare/v0.2.3...v0.3.0>`__ (2023-08-14)
 -------------------------------------------------------------------------------------------------------------
 
