@@ -29,7 +29,7 @@ tests_require = [
     'check-manifest>=0.25',
     'isort>=4.2.2',
     'pydocstyle>=1.0.0',
-    'twine>=4.0,<5.0',
+    'twine>=4.0,<6.0',
     'pkginfo<1.10',
     'setuptools',
     'wheel',
@@ -38,7 +38,7 @@ tests_require = [
 extras_require = {
     'docs': [
         'Sphinx>=1.6.3,<8.0.0',
-        'sphinx-rtd-theme>=0.5.0,<1.4',
+        'sphinx-rtd-theme>=0.5.0,<2.1',
     ],
     'dev': [ 
         'libsass~=0.23.0'
@@ -50,7 +50,7 @@ extras_require['all'] = extras_require['docs'] + extras_require['dev'] + extras_
 
 install_requires = [
     'Sphinx>=1.6.3,<8.0.0',
-    'sphinx-rtd-theme>=0.5.0,<1.4',
+    'sphinx-rtd-theme>=0.5.0,<2.1',
 ]
 
 # Get the version string. Cannot be done with import!
