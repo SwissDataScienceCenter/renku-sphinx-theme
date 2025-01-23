@@ -29,16 +29,16 @@ tests_require = [
     'check-manifest>=0.25',
     'isort>=4.2.2',
     'pydocstyle>=1.0.0',
-    'twine>=4.0,<6.0',
-    'pkginfo<1.10',
+    'twine>=4.0,<7.0',
+    'pkginfo<1.13',
     'setuptools',
     'wheel',
 ]
 
 extras_require = {
     'docs': [
-        'Sphinx>=1.6.3,<8.0.0',
-        'sphinx-rtd-theme>=0.5.0,<2.1',
+        'Sphinx>=1.6.3,<9.0.0',
+        'sphinx-rtd-theme>=0.5.0,<3.1',
     ],
     'dev': [ ],
     #     'compile-scss~=1.0.1', NOTE: This package does not exist anymore, need to find a replacement!
@@ -49,8 +49,8 @@ extras_require = {
 extras_require['all'] = extras_require['docs'] + extras_require['dev'] + extras_require['tests']
 
 install_requires = [
-    'Sphinx>=1.6.3,<8.0.0',
-    'sphinx-rtd-theme>=0.5.0,<2.1',
+    'Sphinx>=1.6.3,<9.0.0',
+    'sphinx-rtd-theme>=0.5.0,<3.1',
 ]
 
 # Get the version string. Cannot be done with import!
