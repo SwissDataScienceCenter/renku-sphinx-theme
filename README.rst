@@ -33,6 +33,8 @@
 
 A Sphinx theme for Renku documentation based on RTD theme.
 
+https://renku-sphinx-theme.readthedocs.io/en/latest/
+
 Installation
 ------------
 
@@ -48,16 +50,16 @@ Enjoy your beautiful Renku documentation style.
 Style (css)
 -----------
 
-This repo contains a scss file that generates a css file.
-The css file shouldn't be manually modified since it's generated with the scss.
-Instructions to change and run the scss file are inside the scss file.
+This repo contains a ``scss`` file that generates a ``css`` file.
+The ``css`` file shouldn't be manually modified since it's generated with the ``scss``.
+Instructions to change and run the ``scss`` file are inside it ``./renku_sphinx_theme/static/custom.scss``.
 
-The easy way of doing style changes in this repository is to go to the renku repo, add a temporary css (custom.css)
+Renku repo is a better repository for testing style changes.
+
+The easy way of doing this is to go to the renku repo, add a temporary css (custom.css)
 in the ``docs/conf.py`` file and follow this steps:
 
-https://renku.readthedocs.io/en/latest/developer/contributing/documentation.html
-
-The reason for this is that renku docs is a better repository for testing changes.
+https://renku.readthedocs.io/en/latest/how-to-guides/contributing/documentation.html
 
 After doing the changes in the temporary css add this to custom.scss in this repository, build this into
 a css file using the instructions and commit the css and scss files.
