@@ -11,13 +11,16 @@ jobs:
   publish-pypi-github:
     runs-on: ubuntu-latest
     if: "startsWith(github.ref, 'refs/tags/')"
+    environment: pypi
+    permissions: 
+      id-token: write
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v4
       with:
         fetch-depth: 0
     - run: git fetch --depth=1 origin +refs/tags/*:refs/tags/*
     - name: Set up Python 3.10
-      uses: actions/setup-python@v1
+      uses: actions/setup-python@v5
       with:
         python-version: "3.10"
     - name: Install dependencies
@@ -26,11 +29,8 @@ jobs:
         pip install setuptools wheel twine
         python -m pip install -e .[all]
         git config --global --add user.name "Renku @ SDSC"
-        git config --global --add user.email "renku@datascience.ch"
+        git config --global --add user.email "hello@renku.io"
     - name: Build Package
       run: python setup.py sdist bdist_wheel
     - name: Publish a Python distribution to PyPI
-      uses: pypa/gh-action-pypi-publish@master
-      with:
-        user: __token__
-        password: ${{ secrets.PYPI_ACCESS_TOKEN }}
+      uses: pypa/gh-action-pypi-publish@v1.12.4
