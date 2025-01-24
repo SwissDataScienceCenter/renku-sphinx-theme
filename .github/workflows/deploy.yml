@@ -2,15 +2,15 @@ name: Deploy on PyPI
 
 on:
   push:
-    # branches:
-    # - master
-    # tags:
-    # - 'v*.*.*'
+    branches:
+    - master
+    tags:
+    - 'v*.*.*'
 
 jobs:
   publish-pypi-github:
     runs-on: ubuntu-latest
-    # if: "startsWith(github.ref, 'refs/tags/')"
+    if: "startsWith(github.ref, 'refs/tags/')"
     environment: pypi
     permissions: 
       id-token: write
