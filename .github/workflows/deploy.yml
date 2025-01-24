@@ -2,10 +2,10 @@ name: Deploy on PyPI
 
 on:
   push:
-    branches:
-    - master
-    tags:
-    - 'v*.*.*'
+    # branches:
+    # - master
+    # tags:
+    # - 'v*.*.*'
 
 jobs:
   publish-pypi-github:
