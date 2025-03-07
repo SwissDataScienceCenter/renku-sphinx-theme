@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     if: "startsWith(github.ref, 'refs/tags/')"
     environment: pypi
-    permissions: 
+    permissions:
       id-token: write
     steps:
     - uses: actions/checkout@v4
