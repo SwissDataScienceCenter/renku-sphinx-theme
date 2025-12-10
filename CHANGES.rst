@@ -18,6 +18,11 @@
 Changes
 =======
 
+`0.5.1 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/compare/v0.5.0...v0.5.1>`__ (2025-12-09)
+-------------------------------------------------------------------------------------------------------------
+
+This release allows the ``renku-sphinx-theme`` to be installed with ``sphinx>=9``.
+
 `0.5.0 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/compare/v0.4.0...v0.5.0>`__ (2025-01-24)
 -------------------------------------------------------------------------------------------------------------
 
