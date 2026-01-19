@@ -18,6 +18,11 @@
 Changes
 =======
 
+`0.5.2 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/compare/v0.5.1...v0.5.2>`__ (2026-01-19)
+-------------------------------------------------------------------------------------------------------------
+
+This release allows the ``renku-sphinx-theme`` to be installed with ``sphinx-rtd-theme>=3.1``.
+
 `0.5.1 <https://github.com/SwissDataScienceCenter/renku-sphinx-theme/compare/v0.5.0...v0.5.1>`__ (2025-12-09)
 -------------------------------------------------------------------------------------------------------------
 
