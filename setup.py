@@ -38,7 +38,7 @@ tests_require = [
 extras_require = {
     'docs': [
         'Sphinx>=1.6.3,<10.0.0',
-        'sphinx-rtd-theme>=0.5.0,<3.1',
+        'sphinx-rtd-theme>=0.5.0,<3.2',
     ],
     'dev': [ 
         'libsass~=0.23.0'
@@ -50,7 +50,7 @@ extras_require['all'] = extras_require['docs'] + extras_require['dev'] + extras_
 
 install_requires = [
     'Sphinx>=1.6.3,<10.0.0',
-    'sphinx-rtd-theme>=0.5.0,<3.1',
+    'sphinx-rtd-theme>=0.5.0,<3.2',
 ]
 
 # Get the version string. Cannot be done with import!
